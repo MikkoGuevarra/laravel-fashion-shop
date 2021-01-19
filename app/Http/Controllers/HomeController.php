@@ -11,7 +11,7 @@ class HomeController extends Controller
         $all_dress = Dress::all();
         $data = [
             'testo' => 'ciaooooo',
-            'dress' => $all_dress
+            'dresses' => $all_dress
         ];
         return view('home', $data);
     }
